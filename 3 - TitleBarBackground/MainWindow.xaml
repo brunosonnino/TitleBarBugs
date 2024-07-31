@@ -30,6 +30,11 @@
                             VerticalAlignment="Center" Margin="10,0" />
                     <TextBlock Text="{x:Bind ((SolidColorBrush)titleBar.Background).Color}" />
                 </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="AppWindow.TitleBar.ForegroundColor:"
+                            VerticalAlignment="Center" Margin="10,0" />
+                    <TextBlock Text="{x:Bind AppWindow.TitleBar.ForegroundColor}" />
+                </StackPanel>
             </StackPanel>
         </Grid>
     </Grid>

@@ -29,6 +29,7 @@ namespace _3___TitleBarBackground
             this.InitializeComponent();
             ExtendsContentIntoTitleBar = true;
             AppWindow.TitleBar.BackgroundColor = Colors.Red;
+            AppWindow.TitleBar.ForegroundColor = Colors.Yellow;
         }
     }
 }
