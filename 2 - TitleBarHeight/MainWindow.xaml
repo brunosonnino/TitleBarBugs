@@ -11,14 +11,24 @@
             <RowDefinition Height="Auto" />
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
-        <TitleBar Title="Title" Subtitle="SubTitle" IsBackButtonVisible="True" IsPaneToggleButtonVisible="True">
+        <TitleBar Title="Title" Subtitle="SubTitle" IsBackButtonVisible="True"
+                IsPaneToggleButtonVisible="True">
             <TitleBar.IconSource>
                 <FontIconSource Glyph="&#xe713;" />
             </TitleBar.IconSource>
         </TitleBar>
         <Grid Grid.Row="1" Background="Aqua">
-            <RadioButtons ItemsSource="{x:Bind TitleBarHeights}" HorizontalAlignment="Center" VerticalAlignment="Center"
-                    SelectedIndex="0" SelectionChanged="TitleBarHeight_SelectionChanged" />
+            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="Hide AppIcon:" VerticalAlignment="Center"
+                            Margin="10,0" />
+                    <ToggleSwitch Toggled="HideIcon_Switched" />
+                </StackPanel>
+                <RadioButtons ItemsSource="{x:Bind TitleBarHeights}"
+                        HorizontalAlignment="Center" VerticalAlignment="Center"
+                        SelectedIndex="0"
+                        SelectionChanged="TitleBarHeight_SelectionChanged" />
+            </StackPanel>
         </Grid>
     </Grid>
 </Window>

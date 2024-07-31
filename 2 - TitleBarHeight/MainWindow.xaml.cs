@@ -43,5 +43,13 @@ namespace _2___TitleBarHeight
                 };
             }
         }
+
+        private void HideIcon_Switched(object sender, RoutedEventArgs e)
+        {
+            if (sender is ToggleSwitch toggleSwitch)
+            {
+                AppWindow.TitleBar.IconShowOptions = toggleSwitch.IsOn ? IconShowOptions.HideIconAndSystemMenu : IconShowOptions.ShowIconAndSystemMenu;
+            }
+        }
     }
 }
