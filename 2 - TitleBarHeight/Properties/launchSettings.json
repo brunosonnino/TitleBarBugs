@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "2 - TitleBarHeight (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "2 - TitleBarHeight (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

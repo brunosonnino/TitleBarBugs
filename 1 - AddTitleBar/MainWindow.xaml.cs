@@ -26,7 +26,6 @@ namespace _1___AddTitleBar
             if (AppWindowTitleBar.IsCustomizationSupported())
             {
                 var titleBar = AppWindow.TitleBar;
-                // Set active window colors.
                 titleBar.ForegroundColor = Colors.White;
                 titleBar.BackgroundColor = ColorHelper.FromArgb(0xff, 0xb0, 0x0e, 0x25);
                 titleBar.ButtonForegroundColor = Colors.White;
@@ -36,7 +35,6 @@ namespace _1___AddTitleBar
                 titleBar.ButtonPressedForegroundColor = Colors.White;
                 titleBar.ButtonPressedBackgroundColor = ColorHelper.FromArgb(0xff, 0x82, 0x03, 0x1c);
 
-                // Set inactive window colors.
                 titleBar.InactiveForegroundColor = Colors.Black;
                 titleBar.InactiveBackgroundColor = ColorHelper.FromArgb(0xff, 0xfe, 0xc1, 0xc1);
                 titleBar.ButtonInactiveForegroundColor = Colors.Black;
