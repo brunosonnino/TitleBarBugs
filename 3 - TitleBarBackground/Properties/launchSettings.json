@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "3 - TitleBarBackground (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "3 - TitleBarBackground (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1 - AddTitleBar", "1 - AddT
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2 - TitleBarHeight", "2 - TitleBarHeight\2 - TitleBarHeight.csproj", "{D8739F8A-63E6-44D1-91DB-5FA410BAC5C8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3 - TitleBarBackground", "3 - TitleBarBackground\3 - TitleBarBackground.csproj", "{CD57DE60-4B8B-4087-B3C9-D1811255B4B1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM64 = Debug|ARM64
@@ -53,6 +55,24 @@ Global
 		{D8739F8A-63E6-44D1-91DB-5FA410BAC5C8}.Release|x86.ActiveCfg = Release|x86
 		{D8739F8A-63E6-44D1-91DB-5FA410BAC5C8}.Release|x86.Build.0 = Release|x86
 		{D8739F8A-63E6-44D1-91DB-5FA410BAC5C8}.Release|x86.Deploy.0 = Release|x86
+		{CD57DE60-4B8B-4087-B3C9-D1811255B4B1}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{CD57DE60-4B8B-4087-B3C9-D1811255B4B1}.Debug|ARM64.Build.0 = Debug|ARM64
+		{CD57DE60-4B8B-4087-B3C9-D1811255B4B1}.Debug|ARM64.Deploy.0 = Debug|ARM64
+		{CD57DE60-4B8B-4087-B3C9-D1811255B4B1}.Debug|x64.ActiveCfg = Debug|x64
+		{CD57DE60-4B8B-4087-B3C9-D1811255B4B1}.Debug|x64.Build.0 = Debug|x64
+		{CD57DE60-4B8B-4087-B3C9-D1811255B4B1}.Debug|x64.Deploy.0 = Debug|x64
+		{CD57DE60-4B8B-4087-B3C9-D1811255B4B1}.Debug|x86.ActiveCfg = Debug|x86
+		{CD57DE60-4B8B-4087-B3C9-D1811255B4B1}.Debug|x86.Build.0 = Debug|x86
+		{CD57DE60-4B8B-4087-B3C9-D1811255B4B1}.Debug|x86.Deploy.0 = Debug|x86
+		{CD57DE60-4B8B-4087-B3C9-D1811255B4B1}.Release|ARM64.ActiveCfg = Release|ARM64
+		{CD57DE60-4B8B-4087-B3C9-D1811255B4B1}.Release|ARM64.Build.0 = Release|ARM64
+		{CD57DE60-4B8B-4087-B3C9-D1811255B4B1}.Release|ARM64.Deploy.0 = Release|ARM64
+		{CD57DE60-4B8B-4087-B3C9-D1811255B4B1}.Release|x64.ActiveCfg = Release|x64
+		{CD57DE60-4B8B-4087-B3C9-D1811255B4B1}.Release|x64.Build.0 = Release|x64
+		{CD57DE60-4B8B-4087-B3C9-D1811255B4B1}.Release|x64.Deploy.0 = Release|x64
+		{CD57DE60-4B8B-4087-B3C9-D1811255B4B1}.Release|x86.ActiveCfg = Release|x86
+		{CD57DE60-4B8B-4087-B3C9-D1811255B4B1}.Release|x86.Build.0 = Release|x86
+		{CD57DE60-4B8B-4087-B3C9-D1811255B4B1}.Release|x86.Deploy.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
